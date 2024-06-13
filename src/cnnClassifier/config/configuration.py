@@ -2,7 +2,7 @@ from cnnClassifier.utils import read_yaml, create_directories
 from cnnClassifier.constants import *
 from pathlib import Path
 import os
-from cnnClassifier.entity import (DataIngestionConfig,
+from cnnClassifier.entity.config_entity import (DataIngestionConfig,
                                   PrepareBaseModelConfig,
                                   PrepareCallbacksConfig,
                                   TrainingConfig,

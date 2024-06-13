@@ -1,2 +1,1 @@
-from cnnClassifier.config import ConfigurationManager
-
+from cnnClassifier.config.configuration import ConfigurationManager
